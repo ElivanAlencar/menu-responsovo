@@ -34,7 +34,7 @@ body {
     display: inline-block;
     line-height: 80px;
     padding: 0 15px;
-    margin-right: 50px;
+    margin-right: 5px;
 }
 
 .navbar a {
@@ -48,30 +48,15 @@ body {
     background-color: #287A7D;
     transition: .3s;
 }
-
-.menu {
-    margin-top: 25px;
-   width: 10px;
-   float: right;
-   line-height: 90px;
-   font-size: 4px; 
-   padding-top: 5px; 
+input {
+    display: none;
 }
 
-.menu div {
-    background-color: #f3efef;
-    width: 30px;
-    height: 4px;
-    margin: 2px;
-    padding: 1px;
-    cursor: pointer; 
+.imgans {
+    float: right;
+    margin: 25px;
+    display: none;
 }
-
-#check {
-   float: right;
-}
-
-
 
 @media ( max-width: 952px){
     .logo {
@@ -85,10 +70,7 @@ body {
 }
 
 @media ( max-width: 858px){
-    .menu {
-        display: block;
-    }
-
+   
     ul {
        position: fixed;
         width: 100%;
@@ -99,24 +81,29 @@ body {
         text-align: center;
         transition: all .5s;
     }
+
     .navbar ul li  {
         display: block;
         margin: 50px 0;
         line-height: 30px;
     }
+
     .navbar ul li a {
         font-size: 20px;
     }
+
     .navbar a:hover {
        background: none; 
        color:#3CB8BD;
     }
-    #check:checked  ~ ul{
+        
+    #check:checked ~  ul {
         left: 0;
-        
-        
-        
     }
-   
+    .imgans {
+        display: block;
+    }
 
+
+    
 }
