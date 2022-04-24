@@ -41,6 +41,12 @@ body {
     transition: .3s;
 }
 
+.botao {
+    height: 0;
+    width: 0;
+    background-color: #96EAAF;
+}
+
 input {
     display: none;
 }
@@ -71,7 +77,8 @@ input {
 
     .navbar {
         display: flex;
-        justify-content:center;
+        
+        
     }
 
     .logo {
