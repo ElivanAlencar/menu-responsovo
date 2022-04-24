@@ -77,14 +77,10 @@ input {
 
     .navbar {
         display: flex;
-        
-        
+        justify-content: space-around;
     }
 
-    .logo {
-        margin-right: 265px;
-    }
-}
+   
 
 @media ( max-width: 858px){
    
