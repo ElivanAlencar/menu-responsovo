@@ -68,6 +68,8 @@ input {
     display: none;
 }
 
+
+
 @media ( max-width: 952px){
     .logo {
         font-size: 30px;
@@ -125,6 +127,15 @@ input {
 
     .foto-menu-hambuerger {
         display: block;
+    }
+
+    a::after{
+        content: '  ' ;
+       background-color: #f1ecec;
+        width: 80px;
+        height: 5px;
+        display: block;
+        margin: 0 auto;
     }
 
 }
